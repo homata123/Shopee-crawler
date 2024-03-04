@@ -1,4 +1,4 @@
-I use undetected_chromedriver which is a folk version of selenium to avoid shopee checks bots which make regular selenium doesn't usable. Data will be captured when the web client calls XHR to shopee's server, the code will automatically control the necessary pages to retrieve data follow below pipeline:
+I use undetected_chromedriver which is a folk version of selenium to avoid shopee checks bots which make regular selenium doesn't usable. The result will be summarized in stats.txt. Data will be captured when the web client calls XHR to shopee's server, the code will automatically control the necessary pages to retrieve data follow below pipeline:
 
     Get top categories --> Get top shops for each category --> Get recommeded or sold out items in each shop --> Combine all of them to the output results (List of categories with their items)
 
