@@ -1,0 +1,10 @@
+Dữ liệu thu thập được: Tất cả 28 category trên trang chủ shopee, top 100 shop cho mỗi category. 
+Mỗi shop lấy tược từ 50 đến 1000 sản phẩm dựa trên kích thước kho hàng của mỗi shop.
+VD: shop https://shopee.vn/the_deme lấy được tổng cộng 182 sản phẩm trên 2 trang. 
+
+-Số sản phẩm lấy được trung bình trong 1 phút: 900 sản phẩm
+-Giải pháp cung cấp các API v4 để get các thông tin đa dạng về category, shop, product_list, recommenđe_item,
+sold out item, các module thành phần có khả năng tái tích hợp cho các nhiệm vụ khác trong khi vẫn sử dụng logic
+xử lý XHR chung để có thể dễ dàng kế thừa. Hiện vì lí do thời gian hạn hẹp nên giải pháp chưa xét đến nhiều rào
+cản về check bot, anti crawler, tuy nhiên do sử dụng trình giả lập selenium nên có thể dễ dành tích hợp các tùy
+chọn như IP động, thay đổi User-Agent theo thời gian, thay đổi proxy luân phiên để tăng khả năng và độ ổn định.
