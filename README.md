@@ -5,11 +5,11 @@ I use undetected_chromedriver which is a folk version of selenium to avoid shope
 
 Steps to run: 
 
-0. Install requirements.txt by: pip install -r requirements.txt
+0. Create folder ./data/ and ./temp/. Install requirements.txt by: pip install -r requirements.txt
 
 1. Change config params such as items per page, driver version, enable_cdp_events in get_items.py file
 
 2. Running main.py file : python main.py
 
 
-*Notes* : Some sample data files which i have get are 'output_cates.json'; 'output_shops.json' and 'the_deme.json' which save raw item data of 'https://shopee.vn/the_deme' shop .
+*Notes* : Some sample data files which i have get are 'output_cates.json'; 'output_shops.json' and 'the_deme.json' which save raw item data of 'https://shopee.vn/the_deme' shop . 
